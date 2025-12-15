@@ -33,12 +33,12 @@ This supplementary material accompanies Chapter 3 (Resources). Use it as a refer
 
 | Function | Challenge | Tension | Submission | Mastery | Discovery | Progression |
 |----------|-----------|---------|------------|---------|-----------|-------------|
-| Limiter | ✓✓ | ✓✓ | ✗ | ✓ | ~ | ~ |
-| Currency | ✓✓ | ~ | ✓ | ✓✓ | ~ | ✓✓ |
-| Tracker | ~ | ~ | ✓✓ | ~ | ✓✓ | ✓✓ |
-| Meta-resource | ✓ | ~ | ✓ | ✓✓ | ✓ | ✓✓ |
+| Limiter | ✔✔ | ✔✔ | ✗ | ✔ | ~ | ~ |
+| Currency | ✔✔ | ~ | ✔ | ✔✔ | ~ | ✔✔ |
+| Tracker | ~ | ~ | ✔✔ | ~ | ✔✔ | ✔✔ |
+| Meta-resource | ✔ | ~ | ✔ | ✔✔ | ✔ | ✔✔ |
 
-Key: ✓✓ = Excellent fit, ✓ = Works well, ~ = Depends on implementation, ✗ = Usually conflicts
+Key: ✔✔ = Excellent fit, ✔ = Works well, ~ = Depends on implementation, ✗ = Usually conflicts
 
 ---
 

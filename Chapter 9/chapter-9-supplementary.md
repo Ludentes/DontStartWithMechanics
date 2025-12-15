@@ -4,7 +4,7 @@
 
 The main chapter demonstrates the derivation chain through narrative—showing how "stories worth telling about characters they care about" leads to a game resembling *Rimworld*. That narrative necessarily compresses the reasoning.
 
-This supplementary exposes the full process. Every term, every concept, every parameter was derived from principles rather than borrowed from existing games. The goal isn't to reverse-engineer *Rimworld*—it's to show that similar inputs produce similar outputs through systematic derivation.
+This supplementary exposes the fuller process. Every term, every concept, every parameter was derived from principles rather than borrowed from existing games. The goal isn't to reverse-engineer *Rimworld*—it's to show that similar inputs produce similar outputs through systematic derivation.
 
 If you want to understand the approach, read the chapter. If you want to see the complete reasoning, continue here.
 

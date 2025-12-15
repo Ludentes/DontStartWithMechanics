@@ -290,27 +290,27 @@ Print one for center of table.
 
 ```
 ╔═══════════════════════════════════════════════════╗
-║                   PURCHASES                        ║
+║                   PURCHASES                       ║
 ╠═══════════════════════════════════════════════════╣
-║                                                    ║
+║                                                   ║
 ║  ASSET .......................... 5 Wealth        ║
 ║  Gain +1 Wealth per round forever.                ║
-║                                                    ║
+║                                                   ║
 ║  EDUCATION ...................... 8 Wealth        ║
 ║  Gain 2 Assets immediately.                       ║
-║                                                    ║
+║                                                   ║
 ║  LUXURY ........................ 10 Wealth        ║
 ║  Gain 1 Victory Point.                            ║
-║                                                    ║
+║                                                   ║
 ║  EMERGENCY FUND ................. 3 Wealth        ║
 ║  Cancel one negative Event effect (once).         ║
-║                                                    ║
+║                                                   ║
 ║  TAKE DEBT ...................... Free            ║
 ║  Gain 5 Wealth. Take 1 Debt token. (Max 3)        ║
-║                                                    ║
+║                                                   ║
 ║  REPAY DEBT ..................... 5 Wealth        ║
 ║  Remove 1 Debt token.                             ║
-║                                                    ║
+║                                                   ║
 ╠═══════════════════════════════════════════════════╣
 ║  DEBT SERVICE = 1 Wealth per Debt token           ║
 ║  INCOME = 3 Wealth + 1 per Asset                  ║
@@ -326,21 +326,21 @@ Print one. Use token to mark current round.
 
 ```
 ╔═══════════════════════════════════════════════════╗
-║                  LIFE STAGES                       ║
+║                  LIFE STAGES                      ║
 ╠═══════════════════════════════════════════════════╣
-║                                                    ║
+║                                                   ║
 ║  ○ Round 1: Young Adult (18-28)                   ║
-║                                                    ║
+║                                                   ║
 ║  ○ Round 2: Adult (28-38)                         ║
-║                                                    ║
+║                                                   ║
 ║  ○ Round 3: Established (38-48)                   ║
-║                                                    ║
+║                                                   ║
 ║  ○ Round 4: Middle Age (48-58)  ← Collective      ║
 ║                                   Action          ║
 ║  ○ Round 5: Late Career (58-68)                   ║
-║                                                    ║
+║                                                   ║
 ║  ○ Round 6: Legacy (68-78)                        ║
-║                                                    ║
+║                                                   ║
 ╚═══════════════════════════════════════════════════╝
 ```
 
@@ -352,12 +352,12 @@ Print one if using Collective Action module.
 
 ```
 ╔═══════════════════════════════════════════════════╗
-║              COLLECTIVE ACTION                     ║
+║              COLLECTIVE ACTION                    ║
 ╠═══════════════════════════════════════════════════╣
-║                                                    ║
+║                                                   ║
 ║  ELIGIBLE: Players in bottom half (by total       ║
 ║  Wealth + Assets + Victory Points)                ║
-║                                                    ║
+║                                                   ║
 ║  SEQUENCE:                                        ║
 ║  1. Anyone eligible proposes "We organize"        ║
 ║  2. Eligible players secretly commit (pay 3W)     ║
@@ -365,16 +365,16 @@ Print one if using Collective Action module.
 ║  4. Wealthy may offer reforms                     ║
 ║  5. Organizers choose: Accept Reform / Hold Line  ║
 ║  6. Reveal and resolve                            ║
-║                                                    ║
+║                                                   ║
 ║  IF ALL HOLD THE LINE:                            ║
 ║  • Solidarity fund returned                       ║
 ║  • Wealthy loses 1 Asset → poorest organizer      ║
-║                                                    ║
+║                                                   ║
 ║  IF ANYONE ACCEPTS REFORM:                        ║
 ║  • Accepters get reform payment                   ║
 ║  • Holders lose their 3 Wealth                    ║
 ║  • Wealthy keeps all Assets                       ║
-║                                                    ║
+║                                                   ║
 ╚═══════════════════════════════════════════════════╝
 ```
 
@@ -386,30 +386,30 @@ Print one for facilitator.
 
 ```
 ╔═══════════════════════════════════════════════════╗
-║              OUTRO INSTRUCTIONS                    ║
+║              OUTRO INSTRUCTIONS                   ║
 ╠═══════════════════════════════════════════════════╣
-║                                                    ║
+║                                                   ║
 ║  1. FINAL COUNT                                   ║
 ║     Each player announces: Victory Points,        ║
 ║     Wealth, Assets, Debt. Note the winner.        ║
-║                                                    ║
+║                                                   ║
 ║  2. EULOGIES                                      ║
 ║     Each player delivers a brief eulogy for       ║
 ║     the player on their LEFT.                     ║
 ║     What happened to them? What did they          ║
 ║     achieve or struggle with?                     ║
 ║     Start with whoever eulogizes the winner.      ║
-║                                                    ║
+║                                                   ║
 ║  3. THE FINAL QUESTION                            ║
 ║     Ask each player:                              ║
 ║     "What would you have done differently?"       ║
-║                                                    ║
+║                                                   ║
 ║     ALLOW SILENCE. DO NOT FILL IT.                ║
-║                                                    ║
+║                                                   ║
 ║  4. THE PIVOT (Optional)                          ║
 ║     "What would need to change about the game     ║
 ║      for your answer to be different?"            ║
-║                                                    ║
+║                                                   ║
 ╚═══════════════════════════════════════════════════╝
 ```
 

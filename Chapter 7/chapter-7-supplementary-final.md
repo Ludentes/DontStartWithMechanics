@@ -2,6 +2,19 @@
 
 This supplementary material accompanies Chapter 7 (The Derivation Chain). Use it during active design work as a checklist, diagnostic tool, and documentation template.
 
+## Related Supplementary Documents
+
+This is the primary Chapter 7 reference. Additional supplementaries provide deeper coverage of specific topics:
+
+| Document | Contents | Use When... |
+|----------|----------|-------------|
+| **The Dimming** | Complete playable TTRPG one-shot | You want to see a finished artifact from the derivation chain |
+| **Casual Mobile Roguelike** | Extended worked example with production numbers | You need content derivation examples (art budgets, word counts) |
+| **Archetype Library** | 15+ archetypes with full profiles | You're selecting or modifying an archetype at Level 0 |
+| **Testing and Playtesting** | Validation methodology by chain level | You're preparing for or interpreting playtests |
+
+---
+
 ## What's In This Document
 
 | Section | What You'll Find | Use When... |
@@ -10,6 +23,7 @@ This supplementary material accompanies Chapter 7 (The Derivation Chain). Use it
 | **Level-by-Level Checklist** | Questions and outputs for each level | Working through a derivation |
 | **Entry Point Flowchart** | Decision tree for where to start | Beginning a new project |
 | **Coherence Audit Template** | Verification questions between levels | Checking design integrity |
+| **Decision Matrices** | Lookup tables for all levels | Quick reference for common patterns |
 | **Symptom-to-Level Diagnostic** | Problem → Likely cause mapping | Troubleshooting broken designs |
 | **Iteration Documentation Template** | Structured change tracking | Recording and learning from iterations |
 | **System Functions Reference** | Six functions with design options | Specifying presentation architecture |
@@ -64,7 +78,7 @@ VALIDATION: Does it work? Coherence audit → Playtest → Iterate
 - [ ] Fixed constraints documented
 - [ ] Flexible constraints identified
 - [ ] Setting vocabulary established
-- [ ] Archetype expectations clear
+- [ ] Archetype expectations clear (see Archetype Library supplementary)
 
 ---
 
@@ -150,6 +164,7 @@ VALIDATION: Does it work? Coherence audit → Playtest → Iterate
 ### Level 5: Mechanical Specification
 
 **Questions to answer:**
+- [ ] What core verbs does the game require?
 - [ ] What mechanical alternatives were considered?
 - [ ] What are core mechanics?
 - [ ] What resources exist? What function does each serve?
@@ -159,8 +174,8 @@ VALIDATION: Does it work? Coherence audit → Playtest → Iterate
 - [ ] What safety mechanics (if applicable)?
 
 **Outputs:**
+- [ ] Core mechanics selected with rationale
 - [ ] 2-3 alternatives documented with evaluation
-- [ ] Core mechanics specified
 - [ ] Resource system designed (functions, types, scarcity, recovery)
 - [ ] Content requirements listed
 - [ ] Safety mechanics specified (if applicable)
@@ -259,6 +274,126 @@ Use between levels or when design feels wrong.
 
 ---
 
+## Decision Matrices
+
+These matrices encode relationships established throughout the book. They're lookup tools, not substitutes for understanding the underlying principles.
+
+### Matrix 1: Aesthetic → Primary Dynamics
+
+For each aesthetic, what dynamics must emerge for the aesthetic to land?
+
+| Aesthetic | Core Loop Dynamic | Peak Moment Dynamic | Anti-Dynamics |
+|-----------|------------------|--------------------|--------------------|
+| **Challenge** | Attempt, fail, learn, retry | Triumph after struggle | Trivial success, unfair failure, grind bypass |
+| **Discovery** | Explore, observe, theorize, verify | Revelation / "aha!" moment | Empty world, obvious information, arbitrary secrets |
+| **Mastery** | Experiment, observe, optimize | Elegant solution / efficiency breakthrough | Shallow systems, solved optimal, execution gates |
+| **Tension** | Assess threat, commit, experience uncertainty | Close call / narrow escape | Safety, hopelessness, predictability |
+| **Expression** | Create, modify, share | Satisfaction with creation | Constrained options, judgment, meaningless choices |
+| **Fellowship** | Communicate, coordinate, share experience | Shared triumph or experience | Isolation, competition undermining cooperation |
+| **Submission** | Engage in pleasant activity | Flow state / absorption | Stress, punishment, forced attention, time pressure |
+| **Progression** | Acquire, grow, advance | Power spike / new capability | Stagnation, cap reached too early |
+| **Narrative** | Engage with story, make choices | Emotional story beats | Disconnection, meaningless choices, broken immersion |
+
+**Usage:** After defining your aesthetic target (Level 1), use this matrix to derive required dynamics (Level 2).
+
+---
+
+### Matrix 2: Aesthetic → Temporal Architecture Tendencies
+
+| Aesthetic | Micro Loop | Meso Loop | Pacing Pattern | Stopping Points |
+|-----------|-----------|-----------|----------------|-----------------|
+| **Challenge** | Quick attempts (sec-2min) | Encounter/level (10-30min) | Escalating | After meso completion |
+| **Discovery** | Observation (sec-1min) | Area/mystery (15-60min) | Episodic | After revelations |
+| **Mastery** | Single decision (variable) | Strategy test (30-90min) | Steady-state | After runs |
+| **Tension** | Threat response (seconds) | Encounter sequence (15-45min) | Escalating with valleys | After release moments |
+| **Fellowship** | Communication beat (seconds) | Shared activity (30-90min) | Variable (group-driven) | Natural group breaks |
+| **Submission** | Rhythmic action (seconds) | Short session (5-15min) | Steady-state | Very frequent, anywhere |
+| **Progression** | Gain increment (sec-min) | Milestone (5-30min) | Steady or stepped | After milestones |
+| **Narrative** | Story beat (min) | Scene/chapter (15-60min) | Narrative arc | Between scenes/chapters |
+
+**Usage:** After defining dynamics (Level 2), use this matrix to inform temporal architecture decisions (Level 3).
+
+---
+
+### Matrix 3: Aesthetic → Balance Paradigm
+
+| Aesthetic | Primary Paradigm | Why | Secondary Options |
+|-----------|-----------------|-----|-------------------|
+| **Challenge** | Consistency | Pattern learning requires predictability | Adaptive (difficulty scaling) |
+| **Discovery** | Framework or Consistency | Framework for narrative discovery; Consistency for systemic | — |
+| **Mastery** | Consistency | Optimization requires deterministic systems | — |
+| **Tension** | Adaptive | Maintained tension requires adjustment | Consistency (if carefully calibrated) |
+| **Fellowship** | Framework | Human dynamics need flexibility | Consistency (for competitive) |
+| **Submission** | Adaptive | Protected flow requires adjustment | Consistency (very forgiving) |
+| **Progression** | Consistency | Progression legibility requires predictable advancement | Adaptive (difficulty scaling) |
+| **Narrative** | Framework | Story needs flexibility over mechanical precision | Consistency (mechanics supporting narrative) |
+
+**Usage:** After determining temporal architecture (Level 3), use this matrix to select balance paradigm (Level 4).
+
+---
+
+### Matrix 4: Player Profile → Constraints
+
+| Parameter | Casual | Midcore | Hardcore |
+|-----------|--------|---------|----------|
+| **Session Length** | 5-30 minutes | 30-90 minutes | 2+ hours |
+| **Micro Loop Duration** | Seconds to 1 minute | Seconds to 2 minutes | Variable (up to 5+ min) |
+| **Meso Loop Duration** | 5-15 minutes | 15-45 minutes | 30-90 minutes |
+| **Stopping Point Frequency** | Every 5-15 minutes | Every 30-60 minutes | Every 1-2 hours acceptable |
+| **Cognitive Load Ceiling** | 3±2 tracked elements | 5-7 systems | 8-15+ elements |
+| **Decision Complexity** | Simple, intuitive | Moderate, learnable | Complex, mastery-rewarding |
+
+**Usage:** Use throughout derivation to verify decisions fit target player profile.
+
+---
+
+### Matrix 5: Resource Functions
+
+| Function | Purpose | Examples | Serves Aesthetic |
+|----------|---------|----------|------------------|
+| **Limiter** | Constrain what players can do | Health, ammo, action points | Challenge, Tension |
+| **Currency** | Create trade-off decisions | Gold, XP, crafting materials | Mastery, Progression |
+| **Tracker** | Show progress without scarcity | Quest completion, relationship levels | Discovery, Narrative |
+| **Meta-resource** | Create long-term investment | Unlocks, permanent upgrades | Progression |
+
+**Usage:** At Level 5, identify which resource functions your aesthetic requires, then design resources to fill those functions.
+
+---
+
+### Matrix 6: Medium → Constraints
+
+| Constraint | Video Game | Board Game | TTRPG | Mobile |
+|------------|-----------|-----------|-------|--------|
+| **Real-time possible** | Yes | Limited (timers) | No | Yes |
+| **Hidden information** | Complete | Partial | Complete (GM) | Complete |
+| **State tracking** | Automated | Manual (limited) | Manual or GM | Automated |
+| **Complexity ceiling** | Very high | Moderate | Moderate (GM-dependent) | Low-moderate |
+| **Content volume needed** | High | Low-moderate | Low (GM generates) | Moderate |
+| **Framework paradigm viable** | With AI/LLM only | Possible | Native | With AI/LLM only |
+| **Adaptive paradigm viable** | Yes | Difficult | Yes (GM) | Yes |
+
+**Usage:** Consult when establishing context (Level 0) and throughout design.
+
+---
+
+### Matrix 7: Archetype → Inherited Commitments (Summary)
+
+| Archetype | Temporal | Mechanical | Aesthetic Affinity | Cognitive |
+|-----------|----------|------------|-------------------|-----------|
+| **Roguelike** | Run-based macro, escalating | Permadeath, procedural, builds | Challenge, Mastery | Midcore-hardcore |
+| **Puzzle** | Single puzzle meso | Deterministic, clear solution | Challenge, Mastery | Variable |
+| **4X** | Very long macro, turn-based | Interlocking systems, territory | Mastery, Challenge | Hardcore |
+| **Metroidvania** | Ability-gated exploration | Interconnected map, ability gates | Discovery, Challenge | Midcore |
+| **Idle/Incremental** | Prestige macro, passive | Exponential growth, automation | Progression, Submission | Casual-midcore |
+| **Campaign TTRPG** | Multi-session macro, scene micro | Character persistence, GM | Narrative, Fellowship | Midcore-hardcore |
+| **One-Shot TTRPG** | Single session macro | Contained scenario | Variable | Variable |
+| **Euro Board Game** | Single session macro | Resource conversion, VP | Mastery, Challenge | Midcore-hardcore |
+| **Cooperative Board** | Single session, escalating | Shared win/loss, roles | Fellowship, Challenge | Midcore |
+
+**Usage:** When choosing archetype (Level 0), review commitments. See Archetype Library supplementary for full profiles.
+
+---
+
 ## Symptom-to-Level Diagnostic
 
 When playtesting reveals problems, use this guide to locate the cause.
@@ -341,7 +476,7 @@ Track changes systematically to build institutional memory.
 
 ## System Functions Reference
 
-Six functions, each with design options. Use when specifying Level 6.
+Six functions every game must fulfill. Use when specifying Level 6.
 
 ### 1. Adjudication
 
@@ -364,7 +499,6 @@ What players know and when.
 | Full transparency | Everything visible | Mastery, optimization |
 | Selective | Some visible, some hidden | Discovery, Tension |
 | Minimal | Revealed through play | Discovery, Challenge |
-| Unreliable | What's shown may be false | Narrative, Discovery |
 | Pushed | Game tells you what matters | Casual players |
 | Pulled | Player must seek information | Hardcore players |
 
@@ -414,6 +548,18 @@ How players learn and understand.
 | Tooltips on demand | Information when requested | Balance of help/flow |
 | Contextual hints | Help appears when struggling | Casual players |
 | Documentation | External reference | Hardcore, complex systems |
+
+---
+
+## Using This Document
+
+**Matrices are maps, not territories.** They summarize patterns observed across many games. Your specific design may have good reasons to diverge.
+
+**Cross-reference matrices.** A single decision often requires consulting multiple matrices. Designing resources? Check Matrix 5 (resource functions) AND Matrix 4 (player profile constraints) AND the Resource Specification Process in Chapter 7.
+
+**When matrices conflict with your instinct, investigate.** Either your instinct is catching something the matrix misses, or the matrix is surfacing something your instinct overlooked. Both are valuable signals.
+
+**Return to chapters for understanding.** This document provides lookup tools. The main chapters provide conceptual foundations. If a matrix entry is unclear, read the relevant chapter.
 
 ---
 

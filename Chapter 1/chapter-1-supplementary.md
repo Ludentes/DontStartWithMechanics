@@ -155,15 +155,15 @@ For each component, ask: "Does this serve my primary aesthetic?"
 
 | Aesthetic | Casual | Midcore | Hardcore |
 |-----------|--------|---------|----------|
-| Challenge | ✓ (session-contained) | ✓ | ✓ |
-| Discovery | ✓ (bite-sized) | ✓ | ✓ |
-| Mastery | ✗ | ✓ (with scaffolding) | ✓ |
-| Expression | ✓ | ✓ | ✓ |
-| Fellowship | ✓ (simple mechanics) | ✓ | ✓ |
-| Submission | ✓ | ✓ | ✗ (boring) |
-| Progression | ✓ (fast) | ✓ | ✓ |
-| Tension | ✗ | ✓ | ✓ |
-| Competition | ✗ | ✓ | ✓ |
+| Challenge | ✔ (session-contained) | ✔ | ✔ |
+| Discovery | ✔ (bite-sized) | ✔ | ✔ |
+| Mastery | ✗ | ✔ (with scaffolding) | ✔ |
+| Expression | ✔ | ✔ | ✔ |
+| Fellowship | ✔ (simple mechanics) | ✔ | ✔ |
+| Submission | ✔ | ✔ | ✗ (boring) |
+| Progression | ✔ (fast) | ✔ | ✔ |
+| Tension | ✗ | ✔ | ✔ |
+| Competition | ✗ | ✔ | ✔ |
 
 ---
 

@@ -6,7 +6,7 @@ This supplementary material accompanies Chapter 4 (Cognitive Load). Use it as a 
 
 | Section | What You'll Find | Use When... |
 |---------|------------------|-------------|
-| **Load Type Reference** | Tracking, Decision, Execution definitions and indicators | Diagnosing which load type is problematic |
+| **Load Type Reference** | Tracking, Decision, Execution, Memory definitions and indicators | Diagnosing which load type is problematic |
 | **Load Level Examples** | Games at each load level for each type | Calibrating your design against known examples |
 | **Archetype-Load Matrix** | Complete profile for each archetype | Checking if your archetype fits audience capacity |
 | **Budget Allocation by Aesthetic** | Where to spend cognitive budget for each aesthetic | Planning load distribution |
@@ -29,6 +29,8 @@ This supplementary material accompanies Chapter 4 (Cognitive Load). Use it as a 
 - Positions (unit locations, enemy positions, waypoints)
 - Progress states (quest objectives, collectibles, areas explored)
 - Relationships (faction standings, NPC opinions)
+
+**Key distinction:** Tracking is about *now*—current state that changes during play.
 
 **Observable indicators:**
 
@@ -77,32 +79,66 @@ This supplementary material accompanies Chapter 4 (Cognitive Load). Use it as a 
 | Level | Behavior | Example Games |
 |-------|----------|---------------|
 | Very Low | Actions always succeed when intended | *Visual novels*, *Turn-based RPGs* |
-| Low | Simple inputs, forgiving timing | *Animal Crossing*, *Pokémon* |
+| Low | Simple inputs, forgiving timing | *Animal Crossing*, *Pokemon* |
 | Medium | Some precision needed, moderate timing | *Hades*, *Zelda games* |
 | High | Tight timing, complex inputs | *Dark Souls*, *Monster Hunter* |
 | Very High | Frame-perfect execution, extreme APM | *Fighting games*, *StarCraft*, *Celeste* |
+
+### Memory Load
+
+**Definition:** Mental effort to recall information from earlier—rules, past events, strategies, revealed information.
+
+**What creates it:**
+- Rule complexity (how much to memorize before play)
+- Session gaps (time between play sessions)
+- Narrative accumulation (story events to remember)
+- Hidden information revealed earlier (cards seen, secrets discovered)
+- Strategy knowledge (openings, builds, meta-game)
+
+**Key distinction:** Memory is about *before*—information from past sessions or earlier in current session that must be recalled.
+
+**Observable indicators:**
+
+| Level | Behavior | Example Games |
+|-------|----------|---------------|
+| Very Low | No prior knowledge needed, intuitive rules | *Tetris*, *Flappy Bird* |
+| Low | Simple rules, quick relearning | *Mario Kart*, *Uno* |
+| Medium | Moderate rules, some study helpful | *Hades*, *Slay the Spire* |
+| High | Significant rules, study between sessions | *Magic: The Gathering*, *Gloomhaven* |
+| Very High | Extensive memorization required | *Warhammer 40K*, *Chess* (at competitive level) |
+
+**Memory load compounds with session gaps:**
+
+| Play Frequency | Memory Impact |
+|----------------|---------------|
+| Daily | Minimal—context maintained naturally |
+| Weekly | Low—brief reorientation needed |
+| Bi-weekly | Medium—noticeable reconstruction |
+| Monthly | High—significant effort to resume |
+| Sporadic | Very High—may need to restart or recap |
 
 ---
 
 ## Archetype-Load Matrix
 
-| Archetype | Tracking | Decision | Execution | Total | Primary Aesthetics |
-|-----------|----------|----------|-----------|-------|-------------------|
-| Investigation | High | Medium | Low | High | Discovery, Mastery |
-| Tactical Combat | Medium | High | Low | High | Challenge, Mastery |
-| Real-time Action | Low | Low | High | Medium | Challenge, Tension |
-| 4X Strategy | Very High | Very High | Low | Very High | Mastery, Progression |
-| Puzzle | Low | Very High | Low | Medium | Challenge |
-| Cozy Simulation | Low | Low | Low | Low | Submission, Expression |
-| Roguelike | Medium | High | Medium | High | Challenge, Mastery, Progression |
-| Horror Survival | Medium | Medium | Medium | Medium | Tension, Challenge |
-| Walking Simulator | Low | Low | Low | Low | Narrative, Discovery |
-| Social Deduction | Medium | Very High | Low | High | Fellowship, Competition |
-| MOBA | High | High | Very High | Very High | Competition, Mastery |
-| Metroidvania | Medium | Medium | Medium | Medium | Discovery, Progression |
-| Survival | High | Medium | Medium | High | Challenge, Tension |
-| Fighting Game | Low | High | Very High | Very High | Challenge, Mastery |
-| Deck Builder | Medium | Very High | Low | High | Mastery, Challenge |
+| Archetype | Tracking | Decision | Execution | Memory | Total | Primary Aesthetics |
+|-----------|----------|----------|-----------|--------|-------|-------------------|
+| Investigation | High | Medium | Low | High | High | Discovery, Mastery |
+| Tactical Combat | Medium | High | Low | Low | Medium-High | Challenge, Mastery |
+| Real-time Action | Low | Low | High | Low | Medium | Challenge, Tension |
+| 4X Strategy | Very High | Very High | Low | High | Very High | Mastery, Progression |
+| Puzzle | Low | Very High | Low | Low | Medium | Challenge |
+| Cozy Simulation | Low | Low | Low | Low | Low | Submission, Expression |
+| Roguelike | Medium | High | Medium | Low | Medium-High | Challenge, Mastery, Progression |
+| Horror Survival | Medium | Medium | Medium | Medium | Medium | Tension, Challenge |
+| Walking Simulator | Low | Low | Low | Medium | Low | Narrative, Discovery |
+| Social Deduction | Medium | Very High | Low | Medium | High | Fellowship, Competition |
+| MOBA | High | High | Very High | High | Very High | Competition, Mastery |
+| Metroidvania | Medium | Medium | Medium | Medium | Medium | Discovery, Progression |
+| Survival | High | Medium | Medium | Medium | High | Challenge, Tension |
+| Fighting Game | Low | High | Very High | High | Very High | Challenge, Mastery |
+| Deck Builder | Medium | Very High | Low | Medium | High | Mastery, Challenge |
+| Campaign RPG | Medium | Medium | Low | Very High | High | Narrative, Progression |
 
 ### Using the Matrix
 
@@ -114,6 +150,22 @@ This supplementary material accompanies Chapter 4 (Cognitive Load). Use it as a 
    - Very High = Hardcore only
 3. If mismatch: change archetype or change target audience
 4. Design within the archetype's natural profile
+5. For games with session gaps, pay special attention to Memory column
+
+### Memory Load and Session Frequency
+
+If your game will be played with significant gaps between sessions (weekly or less frequent), prioritize memory load management:
+
+| Archetype | Session Gap Risk | Mitigation Needed |
+|-----------|------------------|-------------------|
+| Investigation | Very High | Clue journals, case summaries |
+| Campaign RPG | Very High | "Previously on," session recaps |
+| 4X Strategy | High | Game state summaries, advisor reminders |
+| Narrative games | High | Story recaps, relationship summaries |
+| Roguelike | Low | Each run is fresh |
+| Puzzle | Low | Self-contained levels |
+
+See Chapter 11 (Hearthfire) for detailed memory load mitigation design.
 
 ---
 
@@ -185,12 +237,12 @@ This supplementary material accompanies Chapter 4 (Cognitive Load). Use it as a 
 
 | Mechanic Type | Primary Load | Secondary Load |
 |---------------|--------------|----------------|
-| Investigation | Tracking | Decision |
+| Investigation | Tracking | Memory |
 | Tactical | Decision | Tracking |
 | Action/Reflex | Execution | — |
 | Puzzle | Decision | — |
-| Exploration | Tracking | — |
-| Social | Decision | Tracking |
+| Exploration | Tracking | Memory |
+| Social | Decision | Memory |
 
 ### Source 2: Resource Management
 
@@ -228,19 +280,19 @@ This supplementary material accompanies Chapter 4 (Cognitive Load). Use it as a 
 
 ### Source 4: Context/Meta-Progression
 
-**What it creates:** Tracking load (world) + Decision load (meta choices)
+**What it creates:** Tracking load (world) + Memory load (persistent systems) + Decision load (meta choices)
 
 | Context Complexity | Examples | Load Level |
 |--------------------|----------|------------|
-| Minimal | Tetris, Chess | Zero |
-| Low | Mario, simple arcade | Very Low |
-| Medium | Hades, most roguelikes | Low-Medium |
-| High | Disco Elysium, narrative RPGs | Medium-High |
-| Very High | Crusader Kings, Dwarf Fortress | Very High |
+| Minimal | *Tetris*, *Chess* | Zero |
+| Low | *Mario*, simple arcade | Very Low |
+| Medium | *Hades*, most roguelikes | Low-Medium |
+| High | *Disco Elysium*, narrative RPGs | Medium-High |
+| Very High | *Crusader Kings*, *Dwarf Fortress* | Very High |
 
 ### Source 5: Social Coordination
 
-**What it creates:** All three load types
+**What it creates:** All four load types
 **Budget impact:** Adds 20-40% to total load
 
 | Social Type | Primary Load Added |
@@ -283,6 +335,17 @@ This supplementary material accompanies Chapter 4 (Cognitive Load). Use it as a 
 | Frequent mechanical errors | Moderate | Timing too tight |
 | Physical tension | High | Demands too high |
 | Frustration at controls | High | Execution blocking fun |
+
+### Memory Load Problems
+
+| Indicator | Severity | What It Means |
+|-----------|----------|---------------|
+| Smooth resumption after breaks | Normal | Appropriate memory load |
+| Brief reorientation needed | Normal | Acceptable for midcore+ |
+| "What was happening?" on return | Moderate | Needs resumption support |
+| Forgetting rules between sessions | High | Rules too complex or poorly taught |
+| Replaying tutorials | High | Memory load exceeds capacity |
+| Abandoning after breaks | Very High | Cannot reconstruct context |
 
 ### Total Load Problems
 
@@ -328,6 +391,13 @@ This supplementary material accompanies Chapter 4 (Cognitive Load). Use it as a 
 3. Add execution assistance (aim assist, input buffering)
 4. Add difficulty/accessibility options
 
+**Memory too high:**
+1. Add resumption support ("Previously on," session recaps)
+2. Simplify rules (fewer exceptions, more intuitive patterns)
+3. Provide in-game references (rule lookups, journals)
+4. Design for session structure (complete arcs per session)
+5. Reduce inter-session dependencies (roguelike structure)
+
 **Total too high:**
 1. Progressive disclosure (spread across time)
 2. Cut features (remove entire systems)
@@ -341,13 +411,15 @@ This supplementary material accompanies Chapter 4 (Cognitive Load). Use it as a 
 ### Challenge Aesthetic Trajectory
 
 ```
-Load →
-         ┌─────────────
-        /
-       /
-      /
-─────┘
-     Novice → Intermediate → Expert
+Load
+  |
+  |         ____________
+  |        /
+  |       /
+  |      /
+  |_____/
+  +---------------------------
+     Novice    Inter.    Expert
 ```
 
 Load increases as player seeks harder challenges. System reveals complexity as skill grows.
@@ -355,13 +427,15 @@ Load increases as player seeks harder challenges. System reveals complexity as s
 ### Mastery Aesthetic Trajectory
 
 ```
-Load →
-              ┌────────
-             /
-            /
-           /
-──────────┘
-     Novice → Intermediate → Expert
+Load
+  |
+  |              ________
+  |             /
+  |            /
+  |           /
+  |__________/
+  +---------------------------
+     Novice    Inter.    Expert
 ```
 
 Gradual complexity revelation. Expert load much higher than novice. Progressive disclosure essential.
@@ -369,9 +443,15 @@ Gradual complexity revelation. Expert load much higher than novice. Progressive 
 ### Submission Aesthetic Trajectory
 
 ```
-Load →
-─────────────────────────
-     Novice → Intermediate → Expert
+Load
+  |
+  |_________________________
+  |
+  |
+  |
+  |
+  +---------------------------
+     Novice    Inter.    Expert
 ```
 
 Flat trajectory. Load stays low throughout. Routines automate; mastery reduces effort.
@@ -379,11 +459,15 @@ Flat trajectory. Load stays low throughout. Routines automate; mastery reduces e
 ### Mixed Aesthetic (Midcore) Trajectory
 
 ```
-Load →
-         ┌───────────
-        /
-───────┘
-     Novice → Intermediate → Expert
+Load
+  |
+  |         _______________
+  |        /
+  |_______/
+  |
+  |
+  +---------------------------
+     Novice    Inter.    Expert
 ```
 
 Initial ramp (learning curve), then plateau. Novices protected; experts have depth available.
@@ -392,13 +476,40 @@ Initial ramp (learning curve), then plateau. Novices protected; experts have dep
 
 ## Audience Capacity Reference
 
-| Profile | Budget (Units) | Typical Session | Load Tolerance |
-|---------|----------------|-----------------|----------------|
-| Casual | 3-5 | 10-30 min | Low only |
-| Midcore | 5-8 | 30-90 min | Low-Medium |
-| Hardcore | 8-15+ | Hours | Any |
+| Profile | Budget (Units) | Typical Session | Load Tolerance | Memory Tolerance |
+|---------|----------------|-----------------|----------------|------------------|
+| Casual | 3-5 | 10-30 min | Low only | Very Low |
+| Midcore | 5-8 | 30-90 min | Low-Medium | Low-Medium |
+| Hardcore | 8-15+ | Hours | Any | Any |
 
 **Budget allocation rule:** No single source should exceed 70% of total budget for its load type.
+
+**Memory tolerance note:** Casual players often have longer gaps between sessions but lower tolerance for memory load—design for minimal reconstruction or self-contained sessions.
+
+---
+
+## Quick Diagnostic
+
+When playtesting reveals problems, use this diagnostic:
+
+1. **What behavior are you seeing?**
+   - UI checking, note-taking → Tracking
+   - Analysis paralysis, timer anxiety → Decision
+   - Mechanical errors, physical tension → Execution
+   - Confusion on return, forgetting rules → Memory
+   - Early quit, "too complicated" → Total
+
+2. **Is the load type appropriate for your archetype?**
+   - Check Archetype-Load Matrix
+   - If mismatch, the archetype may be wrong for your audience
+
+3. **Is the load serving aesthetic payoff?**
+   - If yes, may need better support rather than reduction
+   - If no, reduce or cut
+
+4. **Which reduction strategy fits?**
+   - Use Load Reduction Checklist
+   - Iterate and retest
 
 ---
 

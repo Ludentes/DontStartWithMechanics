@@ -26,13 +26,13 @@
 ├─────────────────────────────────────────────────────────────┤
 │  APPROACHES                                                 │
 │                                                             │
-│     BOLD      □ +0    □ +1    □ +2                         │
+│     BOLD      □ +0    □ +1    □ +2                          │
 │     (force, courage, direct action)                         │
 │                                                             │
-│     CLEVER    □ +0    □ +1    □ +2                         │
+│     CLEVER    □ +0    □ +1    □ +2                          │
 │     (tricks, plans, knowledge)                              │
 │                                                             │
-│     SWIFT     □ +0    □ +1    □ +2                         │
+│     SWIFT     □ +0    □ +1    □ +2                          │
 │     (speed, reflexes, stealth)                              │
 │                                                             │
 ├─────────────────────────────────────────────────────────────┤
@@ -52,13 +52,13 @@
 ┌─────────────────────────────────────────────────────────────┐
 │  STRESS                                                     │
 │                                                             │
-│     □  □  □  □  □      (Clears between sessions)           │
+│     □  □  □  □  □      (Clears between sessions)            │
 │     1  2  3  4  5                                           │
 │                                                             │
 ├─────────────────────────────────────────────────────────────┤
 │  FATE POINTS                                                │
 │                                                             │
-│     □  □  □  □  □      (Start each session with 2)         │
+│     □  □  □  □  □      (Start each session with 2)          │
 │                                                             │
 ├─────────────────────────────────────────────────────────────┤
 │  CONNECTIONS                                                │
@@ -67,14 +67,14 @@
 │  • ____________________: _______________________________    │
 │  • ____________________: _______________________________    │
 │                                                             │
-│  World: ________________________________________________   │
+│  World: ________________________________________________    │
 │                                                             │
-│  Hook: _________________________________________________   │
+│  Hook: _________________________________________________    │
 │                                                             │
 ├─────────────────────────────────────────────────────────────┤
 │  ADVANCEMENT                                                │
 │                                                             │
-│  Ticks: □ □ □  →  Advancement #____                        │
+│  Ticks: □ □ □  →  Advancement #____                         │
 │                                                             │
 │  □ New aspect (max 5)                                       │
 │  □ Improve approach (max +2)                                │
@@ -90,8 +90,8 @@
 ├─────────────────────────────────────────────────────────────┤
 │  ADDITIONAL HEROIC ABILITIES                                │
 │                                                             │
-│  □ ______________________________________________________  │
-│  □ ______________________________________________________  │
+│  □ ______________________________________________________   │
+│  □ ______________________________________________________   │
 │                                                             │
 └─────────────────────────────────────────────────────────────┘
 ```
@@ -104,24 +104,24 @@
 ┌─────────────────────────────────────────────────────────────┐
 │  THE ROLL                                                   │
 │                                                             │
-│  2d6 base + 1d6 approach + 1d6 aspect + 1d6 assist (max 5) │
+│  2d6 base + 1d6 approach + 1d6 aspect + 1d6 assist (max 5)  │
 │                                                             │
 │  Highest die:                                               │
-│    6   = Full success (you get what you want)              │
-│    4-5 = Partial (you get it, with cost)                   │
-│    1-3 = Failure (consequences)                            │
+│    6   = Full success (you get what you want)               │
+│    4-5 = Partial (you get it, with cost)                    │
+│    1-3 = Failure (consequences)                             │
 │                                                             │
 ├─────────────────────────────────────────────────────────────┤
 │  FATE POINTS (start with 2)                                 │
 │                                                             │
-│  Spend 1: +1d6, or reroll all, or establish fact           │
-│  Earn 1:  Accept compel or complication                    │
+│  Spend 1: +1d6, or reroll all, or establish fact            │
+│  Earn 1:  Accept compel or complication                     │
 │                                                             │
 ├─────────────────────────────────────────────────────────────┤
 │  COMBAT DAMAGE                                              │
 │                                                             │
-│  Full success: 2 stress    Partial: 1 stress               │
-│  Great effect: +1          Limited: -1                     │
+│  Full success: 2 stress    Partial: 1 stress                │
+│  Great effect: +1          Limited: -1                      │
 │                                                             │
 └─────────────────────────────────────────────────────────────┘
 ```
